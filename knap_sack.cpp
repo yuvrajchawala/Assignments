@@ -32,7 +32,7 @@ int knapSack(vector<int> &weights,vector<int> &profits,int n,int capacity)
     int maxi = dp[n][capacity];
     
 
-    // return dp[n][capacity];
+    return dp[n][capacity];
 }
 
 int main()
